@@ -1,7 +1,9 @@
 [package]
-name = "music-cli"
+name = "multimode-cli"
 version = "0.1.0"
 edition = "2021"
- 
+authors = ["Teoman Ata Korkmaz <teoata17@gmail.com>"]
+description = "A multi-mode CLI application with different screens"
+
 [dependencies]
-clap = { version = "4.5.6", features = ["derive"] }
+crossterm = "0.27"
